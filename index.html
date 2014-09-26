@@ -1,0 +1,49 @@
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="css/normalize.css"/>
+		<link type="text/css" rel="stylesheet" href="css/tfxgui.css"/>
+		<link type="text/css" rel="stylesheet" href="css/fonts.css"/>
+	</head>
+
+	<body class="purplebody">
+		<div class="wrapper">
+			<div class="purplebox">
+				<span class="purplebox-title">LOGIN</span>
+				<form action="#">
+					<div class="purplebox-inputfield">
+						<span class="purplebox-label">USER NAME:</span>
+						<input type="text" class="purplebox-inputtext"/>
+					</div>
+					<div class="purplebox-inputfield">
+						<span class="purplebox-label">PASSWORD:</span>
+						<input type="password" class="purplebox-inputtext"/>
+					</div>
+					<div class="purplebox-inputfield">
+						<span class="purplebox-label">GENDER:</span>
+						<input type="radio" name="radiobuttonGender" id="rbMale" class="purplebox-radiobutton"/>
+						<label for="rbMale" class="purplebox-radiobutton-label">MALE</label>
+						<input type="radio" name="radiobuttonGender" id="rbFemale" class="purplebox-radiobutton"/>
+						<label for="rbFemale" class="purplebox-radiobutton-label">FEMALE</label>
+					</div>
+					<div class="purplebox-inputfield">
+						<span class="purplebox-label"></span>
+						<input type="checkbox" name="checkSavePassword" id="chkSavePassword" class="purplebox-checkbox"/>
+						<label for="chkSavePassword" class="purplebox-checkbox-label">SAVE PASSWORD</label>
+					</div>
+					<div class="purplebox-inputfield">
+						<span class="purplebox-label">GROUP:</span>
+						<span class="purplebox-select-arrow">
+						<select id="selectGroup" class="purplebox-select">
+							<option value="supplies">ADMIN</option>
+							<option value="sales">SALES</option>
+							<option value="infra">INFRA</option>
+						</select>
+					</div>
+					<div class="purplebox-buttonfield">
+						<button id="btnSubmit" class="purplebox-button">LOGIN</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
